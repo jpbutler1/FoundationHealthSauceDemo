@@ -6,7 +6,7 @@ export default defineConfig({
   reporter: 'html',            // Generates HTML report
   use: {
     trace: 'on-first-retry',   // Trace recording on first retry
-    headless: false,           // Run tests in a visible browser
+    headless: true,           // Run tests 
     viewport: { width: 1280, height: 720 }, // Browser window size
     ignoreHTTPSErrors: true,   // Ignore HTTPS errors if any
     video: 'retain-on-failure',// Optional: record video on failure
